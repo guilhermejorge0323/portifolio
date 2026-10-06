@@ -1,14 +1,5 @@
-import { useState } from 'react'
-
-
 function App() {
-  const [count, setCount] = useState(0)
-
-  return (
-    <>
-      
-    </>
-  )
+  return <div className='min-h-screen bg-background-dark'></div>;
 }
 
-export default App
+export default App;
