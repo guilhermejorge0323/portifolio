@@ -1,7 +1,21 @@
-@import 'tailwindcss';
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=JetBrains+Mono:wght@400;500;600&family=Onest:wght@400;500;600;700;800&display=swap');
+@import "tailwindcss";
 
 @theme {
   --color-background-dark: #0e0e0e;
-  
 
+  --font-sans: 'Inter', system-ui, sans-serif;
+  --font-heading: 'Onest', system-ui, sans-serif;
+  --font-mono: 'JetBrains Mono', monospace;
+}
+
+body {
+  font-family: var(--font-sans);
+}
+
+.bg-grid {
+  background-image:
+    linear-gradient(rgb(255, 255, 255) 1px, transparent 1px),
+    linear-gradient(90deg, rgb(255, 255, 255) 1px, transparent 1px);
+  background-size: 60px 60px;
 }
