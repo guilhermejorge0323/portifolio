@@ -4,13 +4,19 @@ import {
 } from '../../../../utils/motionConfig';
 import { Container } from '../../../ui/Container';
 import { motion } from 'framer-motion';
-import { TitleSection } from '../TitleSection';
-import { CardAbout } from './CardAbout';
-import { LightbulbIcon, MessageSquareIcon, TargetIcon, UserIcon } from 'lucide-react';
+import { TitleSection } from '../../../ui/Section/TitleSection';
+import { MainCard } from '../../../ui/Section/MainCard';
+import {
+  LightbulbIcon,
+  MessageSquareIcon,
+  TargetIcon,
+  UserIcon,
+} from 'lucide-react';
+import { SectionBody } from '../../../ui/Section/SectionBody';
 
 export function About() {
   return (
-    <div className='px-6 py-24 border-t border-zinc-900' id='about'>
+    <SectionBody>
       <Container>
         <TitleSection number='00' sectionName='sobre mim' title='Quem sou eu' />
 
@@ -68,32 +74,36 @@ export function About() {
             transition={{ duration: 0.5, delay: 0.1 }}
             className='grid grid-cols-1 sm:grid-cols-2 gap-3'
           >
-            <CardAbout
+            <MainCard
               icon={<UserIcon className='w-4.5 h-4.5' />}
               title='Facilidade com Tecnologia'
               desc='Rápida adaptação a novas ferramentas e frameworks'
+              size='sm'
             />
 
-            <CardAbout
+            <MainCard
               icon={<TargetIcon className='w-4.5 h-4.5' />}
               title='Organização'
               desc='Código limpo e arquitetura bem estruturada'
+              size='sm'
             />
 
-            <CardAbout
+            <MainCard
               icon={<MessageSquareIcon className='w-4.5 h-4.5' />}
               title='Comunicação'
               desc='Clareza na documentação e trabalho em equipe'
+              size='sm'
             />
 
-            <CardAbout
+            <MainCard
               icon={<LightbulbIcon className='w-4.5 h-4.5' />}
               title='Resolução de Problemas'
               desc='Foco em soluções práticas e inovadoras'
+              size='sm'
             />
           </motion.div>
         </div>
       </Container>
-    </div>
+    </SectionBody>
   );
 }
