@@ -6,7 +6,6 @@ import { useCallback, useEffect, useState } from 'react';
 import { ChevronLeft, ChevronRight } from 'lucide-react';
 import { CardStack } from './CardStack';
 
-
 type MobileCarroselStacksProps = {
   type: 'front' | 'back';
 };
@@ -43,6 +42,7 @@ export function MobileCarroselStacks({ type }: MobileCarroselStacksProps) {
     emblaApi.on('select', onSelect);
     onSelect();
   }, [emblaApi, onSelect]);
+
   return (
     <div className='w-full sm:hidden'>
       <div className='overflow-hidden' ref={emblaRef}>
