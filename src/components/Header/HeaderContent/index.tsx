@@ -58,7 +58,7 @@ export function HeaderContent() {
         className='flex flex-wrap items-center gap-3 mb-12'
       >
         <a
-          href=''
+          href='#projects'
           className={clsx(
             'px-6 py-2.5',
             'rounded-md',
@@ -71,7 +71,7 @@ export function HeaderContent() {
         </a>
 
         <a
-          href=''
+          href='#contact'
           className={clsx(
             'px-6 py-2.5',
             'rounded-md',

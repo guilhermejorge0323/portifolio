@@ -1,13 +1,13 @@
-import type { ReactNode } from "react"
+import type { ComponentProps, ReactNode } from 'react';
 
 type SectionBodyProps = {
-    children: ReactNode
-}
+  children: ReactNode;
+} & ComponentProps<'div'>;
 
-export function SectionBody({children}: SectionBodyProps) {
-    return (
-        <div className='px-6 py-24 border-t border-zinc-900' id='about'>
-            {children}
-        </div>
-    )
+export function SectionBody({ children, ...props }: SectionBodyProps) {
+  return (
+    <div className='px-6 py-24 border-t border-zinc-900' id='about' {...props}>
+      {children}
+    </div>
+  );
 }

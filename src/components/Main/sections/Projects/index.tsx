@@ -42,7 +42,7 @@ export function Projects() {
   }, [emblaApi, onSelect]);
 
   return (
-    <SectionBody>
+    <SectionBody id='projects'>
       <Container className='max-w-4xl'>
         <TitleSection
           number='03'
