@@ -105,21 +105,21 @@ export function HeaderContent() {
         className='flex items-center gap-5'
       >
         <a
-          href=''
+          href='https://github.com/guilhermejorge0323'
           className='inline-block transition-transform duration-200 hover:-translate-y-1'
         >
           <SiGithub className='w-4.5 h-4.5 text-zinc-600 hover:text-white transition-colors' />
         </a>
 
         <a
-          href=''
+          href='https://www.linkedin.com/in/guilherme-jorge-oliveira-a28767347/'
           className='inline-block transition-transform duration-200 hover:-translate-y-1'
         >
           <BsLinkedin className='w-4.5 h-4.5 text-zinc-600 hover:text-white transition-colors' />
         </a>
 
         <a
-          href=''
+          href='mailto:guilhermejorge272@gmail.com'
           className='inline-block transition-transform duration-200 hover:-translate-y-1'
         >
           <MailIcon className='w-4.5 h-4.5 text-zinc-600 hover:text-white transition-colors' />
