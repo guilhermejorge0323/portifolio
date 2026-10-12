@@ -84,7 +84,7 @@ export function HeaderContent() {
         </a>
 
         <a
-          href=''
+          href='/curriculo.pdf'
           className={clsx(
             'flex items-center gap-2',
             'px-6 py-2.5',
