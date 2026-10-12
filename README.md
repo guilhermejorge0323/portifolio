@@ -1,75 +1,45 @@
-# React + TypeScript + Vite
+# 🚀 Portfólio Pessoal — Guilherme Jorge Oliveira
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Bem-vindo ao repositório do meu portfólio pessoal! Desenvolvido para apresentar meus principais projetos, habilidades técnicas e trajetória como desenvolvedor Full-Stack.
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+## 💻 Sobre o Projeto
 
-## React Compiler
+A aplicação foi construída focando em **alta performance**, **design moderno/responsivo** e **interatividade fluida**. O projeto conta com animações suaves com Framer Motion, gerenciamento de temas e cards interativos para a exibição de projetos e contatos.
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+---
 
-## Expanding the ESLint configuration
+## 🛠️ Tecnologias Utilizadas
 
-If you are developing a production application, we recommend updating the configuration to enable type-aware lint rules:
+### **Front-end & Core**
+* **React** + **Vite** — Build rápida e ecossistema reativo
+* **TypeScript** — Tipagem estática para maior segurança e facilidade de manutenção
+* **Tailwind CSS** — Estilização moderna e responsiva
+* **Framer Motion** — Animações e transições de interface
+* **Lucide React** / **React Icons** — Pacotes de ícones modernos
+* **Clsx** / **Tailwind Merge** — Gerenciamento condicional de classes
 
-```js
-export default defineConfig([
-  globalIgnores(['dist']),
-  {
-    files: ['**/*.{ts,tsx}'],
-    extends: [
-      // Other configs...
+---
 
-      // Remove tseslint.configs.recommended and replace with this
-      tseslint.configs.recommendedTypeChecked,
-      // Alternatively, use this for stricter rules
-      tseslint.configs.strictTypeChecked,
-      // Optionally, add this for stylistic rules
-      tseslint.configs.stylisticTypeChecked,
+## ✨ Funcionalidades
 
-      // Other configs...
-    ],
-    languageOptions: {
-      parserOptions: {
-        project: ['./tsconfig.node.json', './tsconfig.app.json'],
-        tsconfigRootDir: import.meta.dirname,
-      },
-      // other options...
-    },
-  },
-])
+- 📱 **Design 100% Responsivo:** Adaptado para dispositivos móveis, tablets e desktops.
+- 🎨 **Interface Interativa:** Animações de entrada (*scroll reveal*) e estados de *hover* trabalhados.
+- 📁 **Seção de Projetos:** Exibição dinâmica de status dos projetos (Concluído / Em Desenvolvimento), stacks e links para o código e demonstração.
+- 📬 **Seção de Contato:** Acesso direto a e-mail (`mailto`), LinkedIn e GitHub.
+- 📄 **Acesso ao Currículo:** Visualização direta do currículo em PDF hospedado na própria aplicação.
 
-```
+---
 
-You can also install [eslint-plugin-react-x](https://npmx.dev/package/eslint-plugin-react-x) and [eslint-plugin-react-dom](https://npmx.dev/package/eslint-plugin-react-dom) for React-specific lint rules:
+## 🚀 Como Executar o Projeto Localmente
 
-```js
-// eslint.config.js
-import reactX from 'eslint-plugin-react-x'
-import reactDom from 'eslint-plugin-react-dom'
+### Pré-requisitos
+* Node.js (versão 18 ou superior)
+* npm, yarn ou pnpm
 
-export default defineConfig([
-  globalIgnores(['dist']),
-  {
-    files: ['**/*.{ts,tsx}'],
-    extends: [
-      // Other configs...
-      // Enable lint rules for React
-      reactX.configs['recommended-typescript'],
-      // Enable lint rules for React DOM
-      reactDom.configs.recommended,
-    ],
-    languageOptions: {
-      parserOptions: {
-        project: ['./tsconfig.node.json', './tsconfig.app.json'],
-        tsconfigRootDir: import.meta.dirname,
-      },
-      // other options...
-    },
-  },
-])
+### Passo a passo
 
-```
+1. **Clone o repositório:**
+   ```bash
+   git clone [https://github.com/guilhermejorge0323/portfolio.git](https://github.com/guilhermejorge0323/portfolio.git)
