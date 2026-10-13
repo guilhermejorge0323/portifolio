@@ -119,7 +119,7 @@ export function HeaderContent() {
         </a>
 
         <a
-          href='mailto:guilhermejorge272@gmail.com'
+          href='mailto:guilhermejorge1707@gmail.com'
           className='inline-block transition-transform duration-200 hover:-translate-y-1'
         >
           <MailIcon className='w-4.5 h-4.5 text-zinc-600 hover:text-white transition-colors' />

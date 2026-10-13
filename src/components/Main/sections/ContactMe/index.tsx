@@ -39,15 +39,15 @@ export function ContactMe() {
 
         <div className='grid sm:grid-cols-3 gap-4'>
           <ContactCard
-            link='mailto:guilhermejorge272@gmail.com'
+            link='mailto:guilhermejorge1707@gmail.com'
             icon={MailIcon}
             title='Email'
-            content='guilhermejorge272@gmail.com'
+            content='guilhermejorge1707@gmail.com'
             subContent='Respondo em até 24h'
           />
 
           <ContactCard
-            link='https://www.linkedin.com/in/guilherme-jorge-oliveira-a28767347/'
+            link='https://www.linkedin.com/in/guilhermejorgeoliveira/'
             icon={FaLinkedinIn}
             title='Linkedin'
             content='Guilherme Jorge Oliveira'
