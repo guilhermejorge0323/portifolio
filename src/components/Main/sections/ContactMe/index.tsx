@@ -51,7 +51,7 @@ export function ContactMe() {
             icon={FaLinkedinIn}
             title='Linkedin'
             content='Guilherme Jorge Oliveira'
-            subContent='in/guilherme-jorge-oliveira'
+            subContent='in/guilhermejorgeoliveira'
           />
 
           <ContactCard
