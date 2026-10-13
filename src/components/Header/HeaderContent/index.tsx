@@ -112,7 +112,7 @@ export function HeaderContent() {
         </a>
 
         <a
-          href='https://www.linkedin.com/in/guilherme-jorge-oliveira-a28767347/'
+          href='https://www.linkedin.com/in/guilhermejorgeoliveira/'
           className='inline-block transition-transform duration-200 hover:-translate-y-1'
         >
           <BsLinkedin className='w-4.5 h-4.5 text-zinc-600 hover:text-white transition-colors' />
