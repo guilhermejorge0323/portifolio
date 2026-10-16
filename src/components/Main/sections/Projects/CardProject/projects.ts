@@ -27,7 +27,7 @@ export const projects = [
       { name: 'Background Jobs', completed: true },
       { name: 'WebSockets', completed: true },
       { name: 'Cache', completed: true },
-      { name: 'Autenticação com Google', completed: false },
+      { name: 'Autenticação com Google', completed: true },
       { name: 'Sistema de notificações', completed: false },
       { name: 'Integração com IA', completed: false },
     ],
