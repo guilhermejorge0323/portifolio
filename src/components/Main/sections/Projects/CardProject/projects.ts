@@ -18,7 +18,7 @@ export const projects = [
     imgSrc: './financeOs.png',
     title: 'Finance Os',
     repositoryLink: 'https://github.com/guilhermejorge0323/FinanceOS',
-    projectLink: 'https://finance-os-khaki-beta.vercel.app/',
+    projectLink: 'https://finance-os-guilhermejorge0323s-projects.vercel.app/',
     desc: 'Uma aplicação web de gestão financeira completa, projetada para o controlo de receitas e despesas, com atualizações em tempo real via WebSockets, automação de tarefas em background e recursos inteligentes com integração de IA.',
     stacks: ['React', 'Typescript', 'Tailwind', 'PostGree SQl', 'NextJS', 'Prisma ORM'],
     features: [
